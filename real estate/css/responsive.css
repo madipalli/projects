@@ -1,0 +1,492 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on : 10/08/2016. 
+    Theme Name : Land-Estate.
+    Description: Land-Estate- Responsive html5 template.
+    Version    : 1.0.
+    Author     : @TheMazine.
+   
+*/
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .scroll-top {
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 1550px) {
+    #banner .banner-heading form {
+        right: 0;
+        padding-bottom: 20px;
+        padding-top: 20px
+    }
+}
+
+@media (max-width: 1199px) {
+    .welcome-section p {
+        width: 90%;
+    }
+    .featured-properties .single-item .img-holder img {
+        width: 100%;
+    }
+    footer .col-lg-3 {
+        margin-bottom: 50px;
+    }
+    footer .footer-shortLink {
+        padding-left: 15px;
+    }
+    .sidebarOne .wrapper-left {
+        padding-left: 0;
+    }
+    .blog-details-page .section-middle-post img {
+        width: 48%;
+    }
+}
+
+/*(max-width: 1199px)*/
+
+@media (max-width: 991px) {
+    header .float-left,
+    header .float-right,
+    .emergency-contact p,
+    .emergency-contact a {
+        float: none;
+        text-align: center;
+    }
+    header ul li a,
+    header ul li:last-child a {
+        border: none;
+    }
+    .main-menu button.search-button,
+    .main-menu .search-form .close-search {
+        right: 15px;
+    }
+    #banner .banner-heading {
+        padding-top: 270px;
+        text-align: left;
+    }
+    .welcome-section p,
+    .theme-main-titleOne p,
+    .about-agent .item .text,
+    .client-say-about .opacity p {
+        width: 100%;
+    }
+    .sell-house .img-holder,
+    .about-agent .item img {
+        display: none;
+    }
+    .about-agent .item.item-right .text .content-wrapper:before,
+    .about-agent .item.item-left .text .content-wrapper:before {
+        left: 50%;
+    }
+    .about-agent .item.item-right .text .content-wrapper:after,
+    .about-agent .item.item-left .text .content-wrapper:after {
+        left: calc(50% - 15px);
+    }
+    .about-agent .item.item-right .text h5,
+    .about-agent .item.item-left .text h5 {
+        text-align: center;
+        margin: 0;
+    }
+    .agent-slider .owl-nav {
+        margin: 10px 0 0 0;
+    }
+    .emergency-contact p {
+        margin: 0 0 20px;
+        line-height: 30px;
+    }
+    .emergency-contact a {
+        margin: 0 auto;
+        display: block;
+    }
+    .welcome-section.style-two .col-lg-3 {
+        padding-left: 15px;
+    }
+    .appoinment-form-style-two {
+        margin-top: 50px;
+    }
+    .about-property-details img {
+        display: none;
+    }
+    .about-property-details .pRight-fix {
+        padding-right: 15px;
+    }
+    .about-property-details .pLeft-fix {
+        padding-left: 15px;
+    }
+    .sidebarOne {
+        margin-top: 80px;
+    }
+    .faq-page {
+        padding-bottom: 100px;
+    }
+    .faq-page .faq-content {
+        margin-bottom: 0;
+    }
+}
+
+/*(max-width: 991px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner .banner-heading {
+        padding-top: 290px;
+    }
+    .property-find-table form .price-ranger .slider-range {
+        width: 260px;
+    }
+    .property-find-table form .single-select-menu.styleOne {
+        width: 190px;
+    }
+    .theme-main-titleOne p {
+        width: 73%;
+    }
+    .about-agent .item img {
+        width: 36%;
+    }
+    .about-agent .item .text .content-wrapper ul li i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+    .about-agent .item .text .content-wrapper ul li:first-child,
+    .about-agent .item .text .content-wrapper ul li:nth-child(3) {
+        width: 29%;
+    }
+    .about-agent .item .text .content-wrapper ul li:nth-child(2) {
+        width: 39.33333%;
+    }
+    .agent-slider .owl-nav {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .client-say-about .opacity p {
+        width: 75%;
+    }
+    .emergency-contact a {
+        width: 220px;
+        font-size: 20px;
+    }
+    .emergency-contact p {
+        font-size: 22px;
+    }
+    footer .footer-gallery .single-content {
+        width: 20%;
+    }
+    .about-property-details .pLeft-fix {
+        padding-left: 40px;
+    }
+    .contact-agent-form form {
+        padding: 0 20px 60px 20px;
+    }
+    .property-details-page .section-top ul li {
+        padding: 0 5px;
+    }
+    .property-details-page .section-middle a {
+        margin-left: 20px;
+    }
+    .property-details-page .section-middle h5,
+    .property-details-page .section-middle a,
+    .property-details-page .section-middle span {
+        font-size: 20px;
+    }
+    .property-find-table-two form {
+        padding: 0 15px 34px 15px;
+    }
+}
+
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu .nav>li {
+        margin: 0 12px;
+    }
+    .main-menu .logo {
+        width: 23%;
+        margin-top: 35px;
+    }
+    .featured-properties .single-item h6 span {
+        font-size: 13px;
+    }
+    footer .footer-gallery .single-content {
+        width: 25%;
+    }
+    .property-find-table form .single-select-menu.styleOne {
+        width: 220px;
+    }
+    .property-find-table form .single-select-menu.margin-fix {
+        margin-right: 20px;
+    }
+    .property-find-table form .single-select-menu.styleTwo {
+        width: 140px;
+    }
+    .property-find-table form .price-ranger .slider-range {
+        width: 286px;
+    }
+    .property-details-page .section-top ul li {
+        padding: 0 13px;
+    }
+}
+
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+    .main-menu.bg-fix,
+    .main-menu {
+        border: none;
+    }
+    .main-menu.fixed {
+        max-height: 100%;
+        overflow-y: auto;
+        border: none;
+    }
+    .main-menu.fixed .logo,
+    .main-menu.fixed button.search-button {
+        display: none;
+    }
+    .main-menu .container {
+        padding: 0;
+    }
+    #banner-slider,
+    .bg-fix #banner-slider {
+        top: 0;
+    }
+    .main-menu.bg-fix {
+        background: #000;
+    }
+    #banner {
+        margin-top: 0;
+    }
+    .main-menu .logo {
+        float: none;
+        margin: 20px 0 15px 15px;
+    }
+    .main-menu button.search-button {
+        top: 42px;
+    }
+    .main-menu nav {
+        float: none;
+        margin: 0;
+        min-height: auto;
+    }
+    .flexnav li a {
+        padding-left: 15px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .main-menu nav .nav>li .sub-menu a {
+        padding-left: 30px;
+    }
+    .main-menu nav .flexnav>li:before {
+        display: none;
+    }
+    .main-menu.fixed .flexnav>li>a,
+    .main-menu.bg-fix.fixed .flexnav>li>a,
+    .main-menu.bg-fix .flexnav>li>a {
+        line-height: 50px;
+    }
+    .property-find-table form .single-select-menu.styleOne,
+    .property-find-table form .single-select-menu.styleTwo {
+        width: 100%;
+        float: none;
+        margin: 0 0 35px 0;
+    }
+    .property-find-table form .price-ranger {
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .property-find-table form button.search {
+        margin: 0;
+    }
+    .property-find-table form .price-ranger .slider-range {
+        width: 100%;
+    }
+    .property-find-table form .price-ranger .ranger-min-max-block {
+        margin: 30px 0 0 0;
+    }
+    .sell-house .icon-wrapper .icon {
+        margin-bottom: 20px;
+    }
+    .recent-blog .single-blog-item .img-holder img {
+        width: 100%;
+    }
+    .quick-message .quick-message-form,
+    .google-map-area {
+        width: 100%;
+        float: none;
+    }
+    .google-map-area {
+        height: 480px;
+        margin-top: 45px;
+    }
+    .quick-message {
+        padding: 80px 0 140px 0;
+    }
+    footer .footer-gallery .single-content {
+        width: 20%;
+    }
+    footer .footer-gallery .single-content img {
+        width: 100%;
+    }
+    .about-property-details .pLeft-fix {
+        margin-top: 70px;
+    }
+    .property-details-page .section-top ul li {
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .property-details-page .section-middle span,
+    .property-details-page .section-middle a,
+    .property-details-page .section-middle h5 {
+        float: none;
+        display: block;
+    }
+    .property-details-page .section-middle a {
+        margin: 15px 0 15px 0;
+    }
+    #banner .banner-heading {
+        padding-top: 130px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #banner {
+        height: auto;
+    }
+    #banner .banner-heading form {
+        position: relative;
+        margin: 30px auto 0 auto;
+    }
+    .main-menu .nav>li {
+        margin: 0;
+    }
+    .main-menu nav .nav>li:before {
+        display: none;
+    }
+    .main-menu nav ul li.dropdown-holder .fa,
+    .main-menu .navbar-toggle {
+        display: block;
+    }
+    .main-menu nav .nav>li .sub-menu {
+        display: none;
+        position: static;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .main-menu .nav>li>a,
+    .main-menu.bg-fix .nav>li>a,
+    .main-menu.bg-fix.fixed .nav>li>a,
+    .main-menu.fixed .nav>li>a {
+        line-height: 50px;
+        padding-left: 15px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .main-menu .nav>li:last-child>a {
+        border: none;
+    }
+}
+
+/*(max-width: 767px)*/
+
+@media (max-width: 700px) {
+    .about-agent .item .text .content-wrapper ul li {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .theme-contact-us-form #success,
+    .theme-contact-us-form #error {
+        width: 84%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 8%;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .error-page .img-holder span {
+        font-size: 80px;
+        left: 0;
+    }
+    header ul li:nth-child(2) {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .blog-details-page .single-comment .text {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .welcome-section a {
+        display: block;
+        margin: 15px auto;
+    }
+    .welcome-section p {
+        margin-bottom: 30px;
+    }
+    .about-agent .item .text .content-wrapper {
+        padding: 32px 10px 40px 10px;
+    }
+    .main-menu .search-form input {
+        font-size: 14px;
+    }
+    .scroll-top {
+        right: 5px;
+        bottom: 5px;
+    }
+    #banner h1 {
+        font-size: 40px;
+    }
+    #banner .banner-heading form {
+        width: 296px;
+    }
+}
+
+@media (max-width: 400px) {
+    .featured-properties .single-item h6 span {
+        float: none;
+        border: none;
+    }
+    .featured-properties .single-item .text ul li i {
+        display: block;
+        margin-top: 5px;
+    }
+    .featured-properties .single-item .text ul li {
+        line-height: 32px;
+    }
+    footer .footer-gallery .single-content {
+        width: 25%;
+    }
+    .contact-agent-form form {
+        padding: 0 10px 60px 10px;
+    }
+    .sidebar-latest-property .list-wrapper {
+        padding-left: 10px;
+    }
+    .property-find-table-two form .single-select-menu.styleTwo {
+        width: 100%;
+    }
+}
